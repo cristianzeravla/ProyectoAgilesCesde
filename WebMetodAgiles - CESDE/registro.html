@@ -1,0 +1,68 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio de Sesión</title>
+    <link rel="stylesheet" href="css/inicio_sesion.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+
+<body>
+    <div class="contact_form">
+
+        <div class="formulario title">
+            <h1><strong>Registrarse</strong></h1>
+
+            <form action="submeter-formulario.php" method="post">
+
+
+                <p>
+                    <label for="nombre" class="colocar_nombre">Nombre Completo
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
+                        placeholder="Escribe tu nombre completo...">
+                </p>
+
+                <p>
+                    <label for="email" class="colocar_email">Usuario
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio"
+                        placeholder="Escribe tu nuevo usuario...">
+                </p>
+                <p>
+                    <label for="email" class="colocar_email">Correo
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio"
+                        placeholder="Escribe tu correo...">
+                </p>
+                <p>
+                    <label for="email" class="colocar_email">Crear Contraseña
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="password" name="introducir_email" id="email" required="obligatorio"
+                        placeholder="Escribe tu nueva contraseña...">
+                </p>
+
+                <button>
+                    <a href="./inicio_sesion.html">Registrarse</a>
+                </button>
+                <p>
+                    <a href="inicio_sesion.html">Ya tengo cuenta</a>
+                </p>
+            </form>
+        </div>
+    </div>
+    <div class="containerButtonRtn">
+        <button class="buttonRtn">
+            <a href="./index.html" class="facebook"><span class="material-icons material-icons-two-tone">
+                    home
+                </span></i></a>
+        </button>
+    </div>
+</body>
+
+</html>

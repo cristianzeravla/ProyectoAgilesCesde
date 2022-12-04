@@ -1,0 +1,55 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.96) 0%, #9D5716 15.02%, #1F1104 97.99%);
+    backdrop-filter: blur(2px);
+}
+
+.bgPagos {
+    width: 500px;
+    height: 100%;
+    margin: auto;
+}
+
+.bgPagos img {
+    text-align: center;
+}
+
+.btn {
+    width: 150px;
+    height: 30px;
+}
+
+.containerButtonRtn {
+    text-align: center;
+}
+
+button {
+    height: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #9D5716 0%, #FFFFFF 100%);
+    border-color: #000000;
+    border-style: solid;
+    border-radius: 10px;
+    width: 420px;
+    cursor: pointer;
+}
+
+.buttonRtn {
+    align-items: center;
+    width: auto;
+    border-radius: 20px;
+
+}
+
+
+button p {
+    color: #fff;
+}

@@ -1,0 +1,317 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    text-align: center;
+    width: 1000px;
+    height: 100%;
+    font-family: 'Noto Sans', sans-serif;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.96) 0%, #9D5716 15.02%, #1F1104 97.99%);
+    backdrop-filter: blur(2px);
+}
+
+.contact_form {
+    width: 900px;
+    height: 800px;
+    margin: 50px;
+    margin-left: 50%;
+    margin-right: 50%;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    background: linear-gradient(180deg, #9D5716 0%, #FFFFFF 100%);
+    border: 2px solid #000000;
+    padding-left: 30px;
+}
+
+
+input {
+    background-color: #fbfbfb;
+    width: 408px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+
+textarea {
+    background-color: #fbfbfb;
+    width: 405px;
+    height: 150px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+
+
+label {
+    display: block;
+    float: center;
+}
+
+
+button {
+    margin-left: -550px;
+    margin-top: 10px;
+    background: linear-gradient(180deg, #9D5716 0%, #FFFFFF 100%);
+    border-color: #000000;
+    border-style: solid;
+    border-radius: 10px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.containerButtonRtn {
+    text-align: left;
+}
+
+
+.aviso {
+    font-size: 13px;
+    color: #0e0e0e;
+}
+
+
+h1 {
+    justify-content: flex-start;
+    font-size: 39px;
+    text-align: left;
+    padding-bottom: 20px;
+    color: #000000;
+}
+
+
+h3 {
+    font-size: 16px;
+    padding-bottom: 30px;
+    color: #0e0e0e;
+}
+
+
+p {
+    align-items: center;
+    text-align: center;
+}
+
+::-webkit-input-placeholder {
+    color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+    color: #a8a8a8;
+}
+
+
+.formulario input:focus {
+    outline: 0;
+    border: 1px solid #97d848;
+}
+
+
+.formulario textarea:focus {
+    outline: 0;
+    border: 1px solid #97d848;
+}
+
+.container {
+    margin: 20px 40px 0px 20px
+}
+
+.father {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 500px;
+    margin-top: -30px;
+}
+
+.son {
+    margin: 10px;
+    width: 25%;
+    height: 40%;
+    text-align: center;
+}
+
+.son img {
+    border-radius: 10px;
+    width: 60%;
+    height: 60%;
+}
+
+.btns {
+    width: auto;
+}
+
+.btnback {
+    margin-top: -30px;
+    margin-left: 450px;
+}
+
+:root {
+    --facebook: white;
+    --instagram: white;
+    --whatsapp: white;
+}
+
+.redes-container {
+    text-align: right;
+    width: auto;
+    display: flex;
+    margin-right: 0px;
+    align-content: flex-end;
+}
+
+.redes-container ul li {
+    display: inline-block;
+}
+
+.redes-container ul li a {
+    display: block;
+    padding: 0 10px;
+    background-color: grey;
+    border-radius: 20px;
+}
+
+.redes-container ul:hover a {
+    filter: blur(2px);
+}
+
+.redes-container ul li a:hover {
+    transform: translate(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, .4);
+    filter: none;
+}
+
+.redes-container ul li .facebook:hover {
+    background: var(--facebook);
+}
+
+.redes-container ul li .instagram:hover {
+    background: var(--instagram);
+}
+
+.redes-container ul li .whatsapp:hover {
+    background: var(--whatsapp);
+}
+
+
+.container-morrales {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.son img:hover {
+    transform: translate(-3px) scale(1.05);
+}
+
+/* rowStyles */
+
+.flechas-container {
+    text-align: right;
+    width: auto;
+    display: flex;
+    margin-right: 60px;
+    align-content: flex-end;
+    justify-content: flex-end;
+}
+
+.flechas-container ul li {
+    display: inline-block;
+}
+
+.flechas-container ul li a {
+    display: block;
+    padding: 0 10px;
+    border-radius: 20px;
+}
+
+.flechas-container ul li a:hover {
+    transform: translate(-3px) scale(1.5);
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, .4);
+    filter: none;
+}
+
+/* materialIconsRule */
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+/* titleStyle */
+
+.title h1 {
+    background: linear-gradient(180deg, #a25207ef, #000000);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 32px;
+}
+
+button {
+    height: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #9D5716 0%, #FFFFFF 100%);
+    border-color: #000000;
+    border-style: solid;
+    border-radius: 10px;
+    width: 420px;
+    cursor: pointer;
+}
+
+.containerButtonRtn {
+    text-align: center;
+}
+
+.buttonRtn {
+    align-items: center;
+    width: auto;
+    border-radius: 20px;
+
+}
+
+
+button p {
+    color: #fff;
+}
